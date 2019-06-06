@@ -23,7 +23,7 @@ class App extends React.Component {
         completed: false
       },
       {
-        task: 'Go grab Food',
+        task: 'Banana',
         id: 1528817077286,
         completed: false
       },
