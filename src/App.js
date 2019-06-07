@@ -43,7 +43,7 @@ class App extends React.Component {
     
     const newTask = {
       task: this.state.taskInput,
-      id: Date.now,
+      id: Date.now(),
       completed: false
     }
     this.setState({
