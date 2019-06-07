@@ -31,6 +31,9 @@ class App extends React.Component {
     taskInput: ""
   }
 
+//tasks array needs to be passed down to TodoList comp from the state
+
+
   changeHandler = (e) => {
     e.preventDefault();
     this.setState({ [e.target.name]: e.target.value }
